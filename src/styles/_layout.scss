@@ -1,0 +1,11 @@
+@import './variables';
+
+.layout {
+  width: 100vw;
+  height: auto;
+  min-height: 100vh;
+  background: url('/assets/background.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
