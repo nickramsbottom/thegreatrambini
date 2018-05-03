@@ -5,7 +5,8 @@ const App = () => (
     <div className="background" />
     <div className="frame__outer">
       <div className="dots">
-        <div className="frame__inner" />
+        <div className="frame__inner">
+        </div>
       </div>
     </div>
   </div>
