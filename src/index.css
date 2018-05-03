@@ -10,6 +10,8 @@ h2 {
   font-size: 24px;
   color: gold;
   text-shadow: 0px 2px 20px black; }
+  h2 .quote__mark {
+    color: white; }
 
 h1 {
   font-family: "Landmark Dimensional A", "Landmark Dimensional B";
@@ -39,6 +41,8 @@ h2 {
   font-size: 24px;
   color: gold;
   text-shadow: 0px 2px 20px black; }
+  h2 .quote__mark {
+    color: white; }
 
 h1 {
   font-family: "Landmark Dimensional A", "Landmark Dimensional B";
@@ -87,6 +91,8 @@ h2 {
   font-size: 24px;
   color: gold;
   text-shadow: 0px 2px 20px black; }
+  h2 .quote__mark {
+    color: white; }
 
 h1 {
   font-family: "Landmark Dimensional A", "Landmark Dimensional B";

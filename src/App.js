@@ -23,7 +23,7 @@ class App extends Component {
             {fortune ?
               <div className="frame__inner">
                 <div>
-                  <h2>{ fortune }</h2>
+                  <h2><span className="quote__mark">&ldquo;</span>{ fortune }<span className="quote__mark">&rdquo;</span></h2>
                   <div className="spacer__large" />
                   <button onClick={this.getFortune}>Hit Me Again</button>
                 </div>
