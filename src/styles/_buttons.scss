@@ -1,0 +1,23 @@
+@import './variables';
+
+button {
+  width: auto;
+  height: 60px;
+  padding: 0 40px;
+  background: linear-gradient(to bottom, #cc0000 0%,#b50000 100%);
+  border-radius: 4px;
+  border: none;
+  color: white;
+  box-shadow: 0px 2px 10px rgba(0,0,0,0.5);
+  cursor: pointer;
+  outline: none;
+  transition: 200ms all ease-in-out;
+  font-family: "Landmark Regular A", "Landmark Regular B";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+
+  &:hover {
+    box-shadow: 0px 4px 20px rgba(0,0,0,0.5);
+  }
+}
