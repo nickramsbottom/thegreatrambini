@@ -8,4 +8,4 @@ app.get('/horoscope', (req, res) => {
   res.send(JSON.stringify({ wisdom: wisdom[Math.floor(Math.random() * wisdom.length)] }));
 });
 
-app.listen(3000, () => console.log('Example app is listening on port 3000!'));
+app.listen(3000, () => console.log('The Great Rambini is listening on port 3000!'));
