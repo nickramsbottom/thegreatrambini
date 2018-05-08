@@ -5,7 +5,7 @@ const app = express();
 
 app.get('/horoscope', (req, res) => {
   res.setHeader('Content-Type', 'application/json');
-  res.send(JSON.stringify({ wisdom: wisdom[Math.floor(Math.random() * wisdom.length)] }));
+  res.json({ wisdom: wisdom[Math.floor(Math.random() * wisdom.length)] });
 });
 
 app.listen(3000, () => console.log('The Great Rambini is listening on port 3000!'));
