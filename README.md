@@ -6,5 +6,3 @@ The most magical website on the internet.
 Twitter:
 
 great_rambini
-
-hello,yes?pleaseconfirm
